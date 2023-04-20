@@ -1,9 +1,9 @@
 //your code here
 const newTodoInput = document.getElementById('newTodoInput');
-const addTodoButton = document.getElementById('addTodoButton');
+const addTodoBtn = document.getElementById('addTodoBtn');
 const todoList = document.getElementById('todoList');
 
-addTodoButton.addEventListener('click', function() {
+addTodoBtn.addEventListener('click', function() {
 	const todoNext = newTodoInput.value.trim();
 	if (todoNext != '') {
 		const newTodo = document.createElement('li');
